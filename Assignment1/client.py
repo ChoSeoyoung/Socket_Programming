@@ -17,5 +17,5 @@ while True:
     
     modifiedMessage, serverAddress = clientSocket.recvfrom(2048)
     print(modifiedMessage.decode())
-
+print("Close the client socket")
 clientSocket.close()
